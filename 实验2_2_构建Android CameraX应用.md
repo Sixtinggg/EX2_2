@@ -52,7 +52,7 @@
 - 使用 **Kotlin** 语言，最低 API Level 设为35。
 - Build configuration language选择Groovy DSL (build.gradle)
 
-![image-20250430091806613](EX2_2_picture\image-20250430091806613.png)
+![image-20250430091806613](EX2_2_picture/image-20250430091806613.png)
 
 ### 2. 添加 Gradle 依赖
 
@@ -89,7 +89,7 @@ buildFeatures {
 
 点击 **Sync Now** 同步项目。
 
-![image-20250430092445888](EX2_2_picture\image-20250430092445888.png)
+![image-20250430092445888](EX2_2_picture/image-20250430092445888.png)
 
 ### 3. 设置布局文件
 
@@ -157,7 +157,7 @@ buildFeatures {
 
 布局界面效果如图
 
-![image-20250430092736721](EX2_2_picture\image-20250430092736721.png)
+![image-20250430092736721](EX2_2_picture/image-20250430092736721.png)
 
 ### 4. 编写 MainActivity.kt 代码
 
@@ -213,7 +213,7 @@ buildFeatures {
    android:maxSdkVersion="28" />
 ```
 
-![image-20250430093328448](EX2_2_picture\image-20250430093328448.png)
+![image-20250430093328448](EX2_2_picture/image-20250430093328448.png)
 
 然后，复制代码到MainActivity.kt. 中。
 
@@ -234,7 +234,7 @@ override fun onRequestPermissionsResult(
 }
 ```
 
-![image-20250430094218221](EX2_2_picture\image-20250430094218221.png)
+![image-20250430094218221](EX2_2_picture/image-20250430094218221.png)
 
 ### 6.实现 Preview 用例
 
@@ -278,7 +278,7 @@ private fun startCamera() {
 
 运行应用，可以看到相机预览
 
-![image-20250430094718912](EX2_2_picture\image-20250430094718912.png)
+![image-20250430094718912](EX2_2_picture/image-20250430094718912.png)
 
 ### 7.实现 ImageCapture 用例（拍照功能）
 
@@ -368,11 +368,11 @@ private fun startCamera() {
 
 重新运行应用，然后按 Take Photo。屏幕上应该会显示一个消息框，会在日志中看到一条消息。
 
-![image-20250430095311642](EX2_2_picture\image-20250430095311642.png)
+![image-20250430095311642](EX2_2_picture/image-20250430095311642.png)
 
 这时可以查看本地的图片库，查看刚刚拍摄的图片。
 
-![image-20250430095408320](EX2_2_picture\image-20250430095408320.png)
+![image-20250430095408320](EX2_2_picture/image-20250430095408320.png)
 
 
 
@@ -457,7 +457,7 @@ private fun startCamera() {
 
 运行应用：
 
-![image-20250430095845861](EX2_2_picture\image-20250430095845861.png)
+![image-20250430095845861](EX2_2_picture/image-20250430095845861.png)
 
 ### 9.实现 VideoCapture 用例（拍摄视频）
 
@@ -559,11 +559,11 @@ cameraProvider.bindToLifecycle(this, cameraSelector, preview, videoCapture)
   录制几秒钟或几分钟的视频。
   按“STOP CAPTURE”按钮（和 start capture 按钮是同一个按钮）。
 
-![image-20250430100928330](EX2_2_picture\image-20250430100928330.png)
+![image-20250430100928330](EX2_2_picture/image-20250430100928330.png)
 
 视频录制测试可以看到视频被成功保存至媒体库。
 
-![image-20250430101058563](EX2_2_picture\image-20250430101058563.png)
+![image-20250430101058563](EX2_2_picture/image-20250430101058563.png)
 
 ### 10.扩展实验
 
@@ -613,6 +613,6 @@ private fun startCamera() {
 
 ```
 
-![image-20250430105625773](EX2_2_picture\image-20250430105625773.png)
+![image-20250430105625773](EX2_2_picture/image-20250430105625773.png)
 
-![image-20250430105639480](EX2_2_picture\image-20250430105639480.png)
+![image-20250430105639480](EX2_2_picture/image-20250430105639480.png)
